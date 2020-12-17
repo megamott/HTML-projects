@@ -147,8 +147,6 @@ body {
   margin: 0;
 }
 
-.content-bottom-info {
-}
 .content-bottom-list-info {
   margin: 0 0 59px 0;
 }
@@ -187,6 +185,20 @@ body {
   opacity: 0.3;
 }
 
+.content-bottom-list-info li:hover{
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("../img/project-2/icons/check\ icon-2.png") 0 0 no-repeat;
+  color: red;
+  text-decoration: none;
+  text-shadow: none;
+  font-style: unset;
+  font-weight: 400;
+}
+
+.content-bottom-list-info li:nth-child(4) span:hover {
+  opacity: 1;
+}
+
 .content-bottom-info__link {
   height: 44px;
   padding: 0px 30px;
@@ -199,6 +211,14 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2.8px;
+}
+
+.content-bottom-info__link:hover{
+  background-color: #3a5856;
+}
+
+.content-bottom-info__link:active{
+  background-color: #818181;
 }
 
 .content-bottom-info__link span{
